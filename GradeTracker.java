@@ -91,8 +91,8 @@ public class GradeTracker implements ActionListener {
             String highest1=textfields[high-1].getText();
             String lowest1=textfields[low-1].getText();
 
-            b2.setText(highest1+" has got "+String.valueOf(highest)+"the highest marks");
-            b3.setText(lowest1+" has got "+String.valueOf(lowest)+"the lowest marks");
+            b2.setText(highest1+" has got "+String.valueOf(highest)+" \"highest marks\"");
+            b3.setText(lowest1+" has got "+String.valueOf(lowest)+" \"the lowest marks\"");
         }
         
     }
